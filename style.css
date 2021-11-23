@@ -71,3 +71,12 @@ span:hover {
     text-decoration: underline;
 
 }
+
+.vertical-rule {
+
+    height: 100%;
+    width: 5px;
+
+    background: whites;
+
+}
