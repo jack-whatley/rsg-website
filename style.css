@@ -8,8 +8,8 @@ body {
 
 header {
 
-    width: calc(100% - 20px);
-    padding: 10px;
+    width: calc(100% - 30px);
+    padding: 15px;
 
     display: flex;
     flex-direction: row;
@@ -33,6 +33,12 @@ header {
 .header-title {
 
     margin: 0px 10px 0px 10px;
+
+}
+
+.header-icon {
+
+    margin-right: 20px;
 
 }
 
@@ -78,5 +84,69 @@ span:hover {
     width: 5px;
 
     background: whites;
+
+}
+
+/*.header-search-form {
+
+    margin-right: 20px;
+
+}
+
+.header-search-bar {
+
+    margin: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 2px solid grey;
+    padding: 2.5px;
+
+}
+
+.header-search-bar:focus {
+
+    outline: none;
+
+}
+
+.header-search-button {
+
+    margin: 0px;
+
+}*/
+
+.social-link {
+
+    padding: 0px;
+    height: min-content;
+
+}
+
+#facebook { /*temp icon*/
+
+    width: 25px;
+    height: 25px;
+    background: rgb(54, 54, 54);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+#facebook:hover {
+
+    background: black;
+
+}
+
+#osm {
+
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
 
 }
