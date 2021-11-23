@@ -1,0 +1,22 @@
+{
+  "name": "rsg-website",
+  "version": "0.0.1",
+  "description": "website for local scout group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheatley1239/rsg-website.git"
+  },
+  "author": "Jack Whatley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wheatley1239/rsg-website/issues"
+  },
+  "homepage": "https://github.com/wheatley1239/rsg-website#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
