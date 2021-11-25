@@ -1,0 +1,22 @@
+.header-image {
+
+    width: 100%;
+    height: max-content;
+    background: black; /* two lines are temporary */
+    color: white;
+
+}
+
+.grid-container {
+
+    display: grid;
+    padding: 10px;
+    grid-template: '. . . . .';
+
+}
+
+/*.beavers {
+
+
+
+}*/
