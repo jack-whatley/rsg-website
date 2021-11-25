@@ -33,14 +33,17 @@
 
 .grid-container > div {
 
-    width: 5rem;
-    height: 5rem;
+    width: 7.5rem;
+    height: 7.5rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     margin: .5rem;
+
+    border: 1px solid grey;
+    border-radius: 2px;
 
 }
 
@@ -49,3 +52,17 @@
 .scouts     { background: #004851; color: white; }
 .explorers  { background: #ffffff; color: black; }
 .volunteers { background: #7414dc; color: white; }
+
+hr {
+
+    height: .5px;
+    width: 100%;
+    background: grey;
+
+}
+
+.section-title {
+
+    font-weight: 600;
+
+}
