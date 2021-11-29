@@ -84,4 +84,6 @@ hr {
     width: 45%;
     height: calc(200px + 10vh);
 
+    border: none;
+
 }
