@@ -66,3 +66,22 @@ hr {
     font-weight: 600;
 
 }
+
+.yt-cont {
+
+    width: calc(100% - 20px);
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.yt-cont > iframe {
+
+    width: 45%;
+    height: calc(200px + 10vh);
+
+}
