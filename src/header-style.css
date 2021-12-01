@@ -152,3 +152,12 @@ span:hover {
     margin-right: 10px;
 
 }
+
+.header-image {
+
+    width: 100%;
+    height: max-content;
+    background: black; /* two lines are temporary */
+    color: white;
+
+}
